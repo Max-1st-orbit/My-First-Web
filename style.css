@@ -16,6 +16,11 @@ h2{
     font-size: 30px;
     text-align: left;
 }
+h3{
+    color: rgb(200, 80, 80);
+    font-size: 25px;
+    text-align: left;
+}
 /*Paragraph style*/
 p{
     font-size: 18px;
@@ -43,7 +48,39 @@ button{
 button:hover{
     background-color: gainsboro;
 }
-a{
+p a{
     color: cyan;
     text-decoration: dotted;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    width: 1800px;
+    height: 20px;
+    position: fixed; top: 0; left: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
