@@ -1,6 +1,6 @@
 /*This style the whole page*/
 Body{
-    background-color:rgb(26, 26, 26);
+    background-color:rgb(26, 26, 26); 
     font-family: Arial, Helvetica, sans-serif;
     padding: 40px;
 }
@@ -84,3 +84,33 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
+
+.Inspector{
+    position: fixed; ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    visibility: hidden;
+}
+
+.Inspector button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition:background-color 0.3s ease;
+}
+
+.Inspector button:hover{
+    background-color: gainsboro;
+}
+
+.Hidden{
+    display: none;
+}
+
