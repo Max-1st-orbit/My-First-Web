@@ -1,25 +1,180 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>1st-orbit-Contact</title>
-        <link rel="styleSheet" href="style.css">
-    </head>
-    <nav>
-        <ul>
-            <li><a id="home">Home</a></li>
-            <li><a id="proj">Projects</a></li>
-            <li><a id="abou">About</a></li>
-            <li><a id="cont">Contact</a></li>
-        </ul>   
-        
-    </nav>
-    <body>
-        <h1>Contact</h1>
-        <p>You can contact me at via the following:</p>
-        <ul>
-            <li><a href="mailto:kapambwemarx@gmail.com">Email</a></li>
-            <li><a href="tel:+260764926512">Phone call</a></li>
-        </ul>
-        <script src="script.js"></script>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — FirstOrbit</title>
+  <meta name="description" content="Get in touch with FirstOrbit — indie game developer. Send a message, reach out via email, or find me on Discord and itch.io.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-logo" id="home">First<span>Orbit</span></span>
+    <ul>
+      <li><a id="home2">Home</a></li>
+      <li><a id="proj">Projects</a></li>
+      <li><a id="abou">About</a></li>
+      <li><a id="cont" class="nav-cta active">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<body>
+
+  <div class="contact-page">
+    <div class="container">
+
+      <!-- Page Header -->
+      <p class="section-label fade-in">Let's Talk</p>
+      <h1 class="fade-in delay-1">Get In Touch</h1>
+      <div class="divider"></div>
+      <p class="section-subtitle fade-in delay-2">
+        Have a question, a collaboration idea, or just want to say hi?
+        I'm always open to a good conversation.
+      </p>
+
+      <div class="contact-grid fade-in delay-2">
+
+        <!-- Left: Contact Info -->
+        <div class="contact-info">
+          <h2>Contact Info</h2>
+          <p class="section-subtitle" style="margin-bottom: 28px; font-size: 0.95rem;">
+            Prefer direct contact? Reach me through any of the channels below.
+          </p>
+
+          <!-- Email -->
+          <a href="mailto:firstorbit22@gmail.com" class="contact-method">
+            <div class="contact-method-icon">✉️</div>
+            <div class="contact-method-details">
+              <span class="contact-method-label">Email</span>
+              <span class="contact-method-value">firstorbit22@gmail.com</span>
+            </div>
+          </a>
+
+          <!-- itch.io -->
+          <a href="https://first-orbit.itch.io/" target="_blank" rel="noopener" class="contact-method">
+            <div class="contact-method-icon">🎮</div>
+            <div class="contact-method-details">
+              <span class="contact-method-label">itch.io</span>
+              <span class="contact-method-value">first-orbit.itch.io</span>
+            </div>
+          </a>
+
+          <!-- Discord -->
+          <a href="https://discord.gg/QkSKBbK6m" target="_blank" rel="noopener" class="contact-method">
+            <div class="contact-method-icon">💬</div>
+            <div class="contact-method-details">
+              <span class="contact-method-label">Discord</span>
+              <span class="contact-method-value">Join my server</span>
+            </div>
+          </a>
+
+          <div class="contact-socials">
+            <a href="https://first-orbit.itch.io/" target="_blank" rel="noopener" class="social-btn" title="itch.io">🎮</a>
+            <a href="https://discord.gg/QkSKBbK6m" target="_blank" rel="noopener" class="social-btn" title="Discord">💬</a>
+            <a href="mailto:firstorbit22@gmail.com" class="social-btn" title="Email">✉️</a>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="contact-form-card fade-in delay-3">
+          <h3>Send a Message</h3>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit" id="submitBtn">
+              Send Message ✉️
+            </button>
+          </form>
+        </div>
+
+      </div>
+      <!-- /contact-grid -->
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">First<span>Orbit</span></div>
+          <p>Indie game developer & creative.<br>Making things that matter to me.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a id="f-home">Home</a></li>
+            <li><a id="f-proj">Projects</a></li>
+            <li><a id="f-cont">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Find Me</h4>
+          <ul>
+            <li><a href="https://first-orbit.itch.io/" target="_blank" rel="noopener">itch.io ↗</a></li>
+            <li><a href="https://discord.gg/QkSKBbK6m" target="_blank" rel="noopener">Discord ↗</a></li>
+            <li><a href="mailto:firstorbit22@gmail.com">firstorbit22@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2026 FirstOrbit. All rights reserved.</span>
+        <div class="footer-socials">
+          <a href="https://first-orbit.itch.io/" target="_blank" rel="noopener" class="social-btn" title="itch.io">🎮</a>
+          <a href="https://discord.gg/QkSKBbK6m" target="_blank" rel="noopener" class="social-btn" title="Discord">💬</a>
+          <a href="mailto:firstorbit22@gmail.com" class="social-btn" title="Email">✉️</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Nav
+    document.getElementById('home').addEventListener('click', () => window.location.href = 'index.html');
+    document.getElementById('home2').addEventListener('click', () => window.location.href = 'index.html');
+    document.getElementById('f-home').addEventListener('click', () => window.location.href = 'index.html');
+    document.getElementById('f-proj').addEventListener('click', () => window.location.href = 'videoGames.html');
+    document.getElementById('f-cont').addEventListener('click', () => window.location.href = 'Contact.html');
+
+    // Contact form → mailto
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name    = document.getElementById('name').value.trim();
+      const email   = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value.trim() || 'Message from ' + name;
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !message) {
+        alert('Please fill in your name, email, and message.');
+        return;
+      }
+
+      const body = encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\n\n${message}`
+      );
+      const subjectEnc = encodeURIComponent(subject);
+      window.location.href = `mailto:firstorbit22@gmail.com?subject=${subjectEnc}&body=${body}`;
+    });
+  </script>
+</body>
 </html>

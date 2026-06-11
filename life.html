@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>1st-orbit-about</title>
-        <link rel="styleSheet" href="style.css"> 
-    </head>
-    <nav>
-        <ul>
-            <li><a id="home">Home</a></li>
-            <li><a id="proj">Projects</a></li>
-            <li><a id="abou">About</a></li>
-            <li><a id="cont">Contact</a></li>
-        </ul>   
-        
-    </nav>
-    <body>
-        <h1>About</h1>
-        <p>  This site was created by Max Kapambwe.
-        </p>
-        <script src="script.js"></script>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — FirstOrbit</title>
+  <meta name="description" content="About FirstOrbit — redirecting to the home page.">
+  <!-- Redirect to About section on home page -->
+  <meta http-equiv="refresh" content="0; url=index.html#about">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="display:flex;align-items:center;justify-content:center;min-height:100vh;">
+  <p style="color:var(--text-secondary);font-family:var(--font);">
+    Redirecting… <a href="index.html#about" style="color:var(--accent);">click here</a> if nothing happens.
+  </p>
+  <script>
+    window.location.replace('index.html#about');
+  </script>
+</body>
 </html>
