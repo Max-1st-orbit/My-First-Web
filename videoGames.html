@@ -8,19 +8,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+
+
+<body>
 <nav>
   <div class="nav-inner">
     <span class="nav-logo" id="home">First<span>Orbit</span></span>
     <ul>
-      <li><a id="home2">Home</a></li>
-      <li><a id="proj" class="active">Projects</a></li>
-      <li><a id="abou">About</a></li>
-      <li><a id="cont" class="nav-cta">Contact</a></li>
+      <li><a href="index.html" id="home2">Home</a></li>
+      <li><a href="videoGames.html" id="proj" class="active">Projects</a></li>
+      <li><a href="index.html#about" id="abou">About</a></li>
+      <li><a href="Contact.html" id="cont" class="nav-cta">Contact</a></li>
     </ul>
   </div>
 </nav>
-
-<body>
 
   <div class="projects-page">
     <div class="container">
@@ -30,15 +31,14 @@
       <h1 class="fade-in delay-1">Game Projects</h1>
       <div class="divider"></div>
       <p class="section-subtitle fade-in delay-2">
-        A collection of published games — ordered from most to least recent.
-        Every one of these taught me something new.
+        Selected published projects, with gameplay systems and development tools highlighted.
       </p>
 
       <!-- itch.io Banner -->
       <div class="itch-banner fade-in delay-2">
         <div class="itch-banner-text">
-          <h3>🎮 All games available on itch.io</h3>
-          <p>Play everything I've published — straight in your browser or as a download.</p>
+          <h3>🎮 Published games on itch.io</h3>
+          <p>Explore browser games and downloadable releases.</p>
         </div>
         <a href="https://first-orbit.itch.io/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
           Visit first-orbit.itch.io ↗
@@ -57,14 +57,10 @@
             <div class="project-card-body" style="padding: 36px; justify-content: center;">
               <span class="project-tag" style="margin-bottom: 14px;">Narrative · Puzzle</span>
               <h3 style="font-size: 1.4rem; margin-bottom: 14px;">Table For Two</h3>
-              <p style="margin-bottom: 24px;">
-                A short narrative game about a first date — with a twist. Instead of choosing
-                dialogue directly, your responses are decided through a <strong style="color: var(--text-primary);">minesweeper-style interaction</strong>.
-                Clear the board and Sam finds the right words. Hit a mine, and things come out… differently.
-              </p>
+              <p>A narrative puzzle game where minesweeper-style interactions determine dialogue outcomes during a first date.</p><p class="project-detail"><strong>Tools:</strong> Unity · C# · Aseprite</p><p class="project-detail"><strong>Systems:</strong> Puzzle interactions connected to narrative responses.</p>
               <div class="project-card-footer" style="flex-wrap: wrap; gap: 12px;">
-                <a href="https://first-orbit.itch.io/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
-                  Play on itch.io ↗
+                <a href="https://first-orbit.itch.io/table-for-two" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                  View Game ↗
                 </a>
                 <span style="font-size: 0.8rem; color: var(--accent);">⭐ Featured Project</span>
               </div>
@@ -80,15 +76,12 @@
           <div class="project-card-body">
             <span class="project-tag">Idle Clicker</span>
             <h3>Corn Game</h3>
-            <p>
-              A simple idle clicker that started as a 4-hour challenge and turned into 30+ hours of work.
-              Born from a late-night impulse — sat down at 8pm, wanted it done by midnight. Months later, still going.
-            </p>
+            <p>A browser-based idle game where players harvest corn and purchase upgrades and workers to improve production.</p><p class="project-detail"><strong>Tools:</strong> Unity · C# · Aseprite</p><p class="project-detail"><strong>Systems:</strong> Resource accumulation, upgrade purchases and worker-based production.</p>
             <div class="project-card-footer">
-              <a href="https://first-orbit.itch.io/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
-                Play on itch.io ↗
+              <a href="https://first-orbit.itch.io/corn-game" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                View Game ↗
               </a>
-              <span style="font-size:0.8rem; color: var(--text-muted);">Most Recent</span>
+              <span style="font-size:0.8rem; color: var(--text-muted);">Browser Game</span>
             </div>
           </div>
         </div>
@@ -101,13 +94,10 @@
           <div class="project-card-body">
             <span class="project-tag">Game Jam</span>
             <h3>The Agreement</h3>
-            <p>
-              A game jam entry built with a single-input constraint. Ambitious vision, tough limitations —
-              and a year out of game dev didn't help. Still got featured in a YouTuber's video, which was awesome.
-            </p>
+            <p>A horror adventure created for the 1-Button Jam, using a single control for multiple player actions.</p><p class="project-detail"><strong>Tools:</strong> Unity · C# · Aseprite · Audacity</p><p class="project-detail"><strong>Systems:</strong> Single, double and triple presses, plus held input, trigger different actions.</p>
             <div class="project-card-footer">
-              <a href="https://first-orbit.itch.io/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
-                Play on itch.io ↗
+              <a href="https://first-orbit.itch.io/the-agreement" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                View Game ↗
               </a>
               <span style="font-size:0.8rem; color: var(--accent);">📹 YouTube Feature</span>
             </div>
@@ -122,13 +112,10 @@
           <div class="project-card-body">
             <span class="project-tag">Game Jam</span>
             <h3>Depths</h3>
-            <p>
-              My first ever game jam — theme: "diving deeper." It was well-received by players,
-              and great first exposure to community feedback. Placed ~400th out of 1,000+ entries.
-            </p>
+            <p>An underwater survival game created for the Brackeys Game Jam. Players manage oxygen and use a harpoon to collect resources and repel aquatic threats.</p><p class="project-detail"><strong>Tools:</strong> Unity · C# · Aseprite</p><p class="project-detail"><strong>Systems:</strong> Oxygen management and harpoon interactions.</p>
             <div class="project-card-footer">
-              <a href="https://first-orbit.itch.io/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
-                Play on itch.io ↗
+              <a href="https://first-orbit.itch.io/depths" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                View Game ↗
               </a>
               <span style="font-size:0.8rem; color: var(--text-muted);">First Jam Entry</span>
             </div>
@@ -143,13 +130,10 @@
           <div class="project-card-body">
             <span class="project-tag">Action</span>
             <h3>Cyber Rogue</h3>
-            <p>
-              The first game I finished and felt proud of. Not a masterpiece — but a genuine step forward.
-              Serviceable, polished enough, and a proof of concept that I could actually ship something real.
-            </p>
+            <p>A published action roguelike set in a research facility with a dark secret. An early milestone in completing and releasing a playable game.</p><p class="project-detail"><strong>Tools:</strong> Unity · C#</p><p class="project-detail"><strong>Systems:</strong> A complete playable project released for Windows.</p>
             <div class="project-card-footer">
-              <a href="https://first-orbit.itch.io/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
-                Play on itch.io ↗
+              <a href="https://first-orbit.itch.io/cyber-rogue" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                View Game ↗
               </a>
               <span style="font-size:0.8rem; color: var(--text-muted);">A Milestone</span>
             </div>
@@ -186,9 +170,9 @@
         <div class="footer-links">
           <h4>Navigate</h4>
           <ul>
-            <li><a id="f-home">Home</a></li>
-            <li><a id="f-proj">Projects</a></li>
-            <li><a id="f-cont">Contact</a></li>
+            <li><a href="index.html" id="f-home">Home</a></li>
+            <li><a href="videoGames.html" id="f-proj">Projects</a></li>
+            <li><a href="Contact.html" id="f-cont">Contact</a></li>
           </ul>
         </div>
         <div class="footer-links">
